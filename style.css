@@ -34,13 +34,13 @@ button {
     margin: 1.7em;
     border-radius: 50%;
     border: none;
-    height: 45px;
-    width: 45px;
+    font-size:16px;
     outline: none;
-    background: #7c7c7c2b;
-    color: whitesmoke;
+    background-color:#3498db;
+    color:#fff;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition:background-color 0.3s ease
+
 }
 
 button#locationBtn, button#forecastBtn {
@@ -49,15 +49,18 @@ button#locationBtn, button#forecastBtn {
     border: none;
     padding: 0.7em;
     outline: none;
-    background: #7c7c7c2b;
-    color: whitesmoke;
+    background: #3498db;
+    color: #fff;
     cursor: pointer;
-    transition: 0.2s ease-in-out;
+    transition: background-color 0.3s ease;
 }
 
 button#locationBtn:hover, button#forecastBtn:hover {
-    background: white;
-    color: black;
+    background-color:#2980b9;
+    
+}
+button#locationBtn:active{
+    background-color:#1f77b4;
 }
 
 input.searchbar {
