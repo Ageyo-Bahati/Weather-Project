@@ -6,7 +6,7 @@ body {
     margin: 0;
     background: #222;
     font-family: 'Open Sans', sans-serif;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-image: url("");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -34,13 +34,13 @@ button {
     margin: 1.7em;
     border-radius: 50%;
     border: none;
-    font-size:16px;
+    height: 45px;
+    width: 45px;
     outline: none;
-    background-color:#3498db;
-    color:#fff;
+    background: #7c7c7c2b;
+    color: whitesmoke;
     cursor: pointer;
-    transition:background-color 0.3s ease
-
+    transition: 0.2s ease-in-out;
 }
 
 button#locationBtn, button#forecastBtn {
@@ -49,18 +49,15 @@ button#locationBtn, button#forecastBtn {
     border: none;
     padding: 0.7em;
     outline: none;
-    background: #3498db;
-    color: #fff;
+    background: #7c7c7c2b;
+    color: whitesmoke;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: 0.2s ease-in-out;
 }
 
 button#locationBtn:hover, button#forecastBtn:hover {
-    background-color:#2980b9;
-    
-}
-button#locationBtn:active{
-    background-color:#1f77b4;
+    background: white;
+    color: black;
 }
 
 input.searchbar {
